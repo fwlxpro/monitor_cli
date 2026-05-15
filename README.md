@@ -19,7 +19,7 @@
 > 3. Jakmile vlezete do pimonitor složky stačí zadat `go build` a projekt se vám převede do exe programu.
 
 ```bash
-git clone https://github.com/tvůj_username/pimonitor
+git clone https://github.com/fwlxpro/pimonitor
 cd pimonitor
 go build
 ./pimonitor
