@@ -30,7 +30,7 @@ func main() {
 		log.Fatal(err)
 
 	}
-	fmt.Printf('
+	fmt.Printf(`
 
     ___       ___       ___            ___       ___       ___       ___   
    /\  \     /\__\     /\  \          /\  \     /\  \     /\  \     /\__\  
@@ -40,7 +40,7 @@ func main() {
   \:\__\    \:\__\    \:\__\         \/__/     \::/  /   \::/  /   \:\__\  
    \/__/     \/__/     \/__/                    \/__/     \/__/     \/__/  
 
-	')
+	 `)
 	fmt.Printf("CPU Temperature: %.1f°C\n", temp)
 	fmt.Printf("Ram Usage: %.1f\n", usage)
 	fmt.Printf("Uptime: %d days\n",uptime )

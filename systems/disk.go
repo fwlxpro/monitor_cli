@@ -11,18 +11,18 @@ func DiskUsage()(int,int, error){
 	cmd := exec.Command("df", "--output=used,avail", "/", "--block-size=1G")
 	output, err := cmd.Output()
   if err != nil {
-		return 0, err 
+		return 0,0, err 
 	}
 
 	s := string(output)
-	row := strings.Slice(s, "\n")
+	row := strings.Split(s, "\n")
 	field := strings.Fields(row[1])
-	diskUsage,err := strconv.ParseInt(field[1], 64)
-	diskAvaible err := strconv.ParseInt(field[2], 64)
+	diskUsage,err := strconv.Atoi(field[1])
+	diskAvaible, err := strconv.Atoi(field[2])
   if err != nil {
-		return 0, err
+		return 0,0, err
 	} 
 
 
- return DiskAvaible,diskUsage, nil
+ return diskAvaible,diskUsage, nil
 }
