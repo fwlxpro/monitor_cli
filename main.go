@@ -9,7 +9,12 @@ import (
 func main() {
 
 	log.SetFlags(0)
- 
+   
+  user,err := systems.GetUser()
+	if err != nil {
+		log.Fatal(err)
+	}
+
   avai,used, err := systems.DiskUsage()
   if err != nil {
 		log.Fatal(err)
@@ -41,6 +46,7 @@ func main() {
    \/__/     \/__/     \/__/                    \/__/     \/__/     \/__/  
 
 	 `)
+	fmt.Printf("Welcome back %v Happy to see you =P" user) 
 	fmt.Printf("CPU Temperature: %.1f°C\n", temp)
 	fmt.Printf("Ram Usage: %.1f\n", usage)
 	fmt.Printf("Uptime: %d days\n",uptime )
