@@ -1,10 +1,11 @@
-     ___       ___       ___            ___       ___       ___       ___   
+```     ___       ___       ___            ___       ___       ___       ___   
     /\  \     /\__\     /\  \          /\  \     /\  \     /\  \     /\__\  
    /::\  \   /:/  /    _\:\  \         \:\  \   /::\  \   /::\  \   /:/  /  
   /:/\:\__\ /:/__/    /\/::\__\        /::\__\ /:/\:\__\ /:/\:\__\ /:/__/   
   \:\ \/__/ \:\  \    \::/\/__/       /:/\/__/ \:\/:/  / \:\/:/  / \:\  \   
    \:\__\    \:\__\    \:\__\         \/__/     \::/  /   \::/  /   \:\__\  
-    \/__/     \/__/     \/__/                    \/__/     \/__/     \/__/  
+    \/__/     \/__/     \/__/                    \/__/     \/__/     \/__/
+```  
 ---
 
 ![Ubuntu](https://img.shields.io/badge/Ubuntu-E95420?style=for-the-badge&logo=ubuntu&logoColor=white) ![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black) ![Go](https://img.shields.io/badge/Go-00ADD8?style=for-the-badge&logo=go&logoColor=white)
@@ -23,9 +24,12 @@ cd pimonitor
 go build
 ./pimonitor
 ```
-
 > Posledním příkazem spustíte program.
+
+
+
 > [!NOTE]
+>
 > V budoucnu se očekává automatická instalace pro *ARM* procesory.
 
 Made with ❤️ By Flwxpro.. License: ![MIT License](https://img.shields.io/badge/MIT-green?style=for-the-badge)
